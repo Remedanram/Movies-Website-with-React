@@ -1,8 +1,33 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Movies Website built using React and Vite.
 
-Currently, two official plugins are available:
+The website allows users to search for movies using an external API (such as TMDB), view movie details, and add or remove movies from their favorites list.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+
+Search for movies by title.
+
+Display movie poster, title, release year.
+
+Add movies to the favorites list.
+
+Remove movies from the favorites list.
+
+Store and manage favorite movies using React context.
+
+Responsive design for better user experience.
+
+Tech Stack
+
+Frontend: React
+
+Build Tool: Vite
+
+API: The Movie Database (TMDB) API
+
+State Management: React Context API
+
+Styling: CSS
+
+try it by using ur own API_KEY
